@@ -1,7 +1,11 @@
+import Banner from "../Pages/Banner";
+import Slider from "../Pages/Slider";
+
 const Home = () => {
     return (
         <div>
-            <h2>This is a home</h2>
+            <Banner />
+            <Slider/>
         </div>
     );
 };
