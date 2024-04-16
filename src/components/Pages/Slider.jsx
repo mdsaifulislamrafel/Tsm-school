@@ -11,7 +11,7 @@ const Slider = () => {
         return () => clearInterval(intervalId);
     }, [currentSlider]);
     return (
-        <div className="w-full mx-auto h-[240px] md:h-[540px] overflow-hidden gap-5 my-5">
+        <div data-aos="fade-up" data-aos-duration="2500" className="w-full mx-auto h-[240px] md:h-[540px] overflow-hidden gap-5 my-5 md:my-16">
             <div className="relative overflow-hidden">
                 {/* dots */}
                 <div className="flex h-fit rounded-full z-50 absolute right-0 bottom-1/2 w-fit gap-1 rotate-90">

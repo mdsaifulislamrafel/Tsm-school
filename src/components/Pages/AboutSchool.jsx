@@ -16,7 +16,7 @@ const AboutSchool = () => {
         { title: 'বিদ্যালয়ের ফেসবুক গ্রুপ', color: 'purple', description: 'click now', links: 'https://www.facebook.com/groups/514439851943676' }
     ];
     return (
-        <div className="bg-[#E7EDC9] grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center lg:p-10">
+        <div data-aos="fade-up" className="bg-[#E7EDC9] grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center my-5 md:my-16 lg:p-10">
             <div>
                 <h2 className="border-b-8 border-[#86A824]"><span className="text-3xl text-black font-semibold">প্রধান শিক্ষকের বাণী</span></h2>
 
