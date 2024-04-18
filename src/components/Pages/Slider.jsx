@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Slider = () => {
     const [currentSlider, setCurrentSlider] = useState(0);
-    const sliders = ['https://i.ibb.co/m5gJn54/Screenshot-2024-04-16-204156.png' ,'https://i.ibb.co/nm0MnQ6/Screenshot-2024-04-16-195746.png', 'https://i.ibb.co/jZfq8LZ/Screenshot-2024-04-16-193721.png', 'https://i.ibb.co/dQgyLqm/IMG-2097-2.jpg', 'https://i.ibb.co/fCKP1zk/IMG20181223104037.jpg'];
+    const sliders = ['https://i.ibb.co/m5gJn54/Screenshot-2024-04-16-204156.png' ,'https://i.ibb.co/nm0MnQ6/Screenshot-2024-04-16-195746.png', 'https://i.ibb.co/jZfq8LZ/Screenshot-2024-04-16-193721.png', 'https://i.ibb.co/dQgyLqm/IMG-2097-2.jpg', 'https://i.ibb.co/fCKP1zk/IMG20181223104037.jpg', 'https://i.ibb.co/WkgHrTZ/Screenshot-2024-04-18-020820.png'];
     const nextSlider = () => setCurrentSlider((currentSlider) => (currentSlider === sliders.length - 1 ? 0 : currentSlider + 1));
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -11,7 +11,7 @@ const Slider = () => {
         return () => clearInterval(intervalId);
     }, [currentSlider]);
     return (
-        <div data-aos="fade-up" data-aos-duration="2500" className="w-full mx-auto h-[240px] md:h-[540px] overflow-hidden gap-5 my-5 md:my-16">
+        <div data-aos="fade-up" data-aos-duration="2500" className="w-full mx-auto h-full md:h-[540px] overflow-hidden gap-5 my-5 md:my-16">
             <div className="relative overflow-hidden">
                 {/* dots */}
                 <div className="flex h-fit rounded-full z-50 absolute right-0 bottom-1/2 w-fit gap-1 rotate-90">

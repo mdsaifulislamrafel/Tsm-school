@@ -1,0 +1,15 @@
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css');
+
+.lg-react-element.custom-class-name {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin: 5px;
+}

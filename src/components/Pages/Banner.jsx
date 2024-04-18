@@ -7,8 +7,8 @@ import 'aos/dist/aos.css';
 AOS.init();
 const Banner = () => {
     return (
-        <div className="my-5 md:my-16">
-            <div className="my-2 flex items-center gap-2 bg-[#003073] text-white p-2">
+        <div className="my-5 md:my-8">
+            <div className="mb-8 flex items-center gap-2 bg-[#003073] text-white p-2">
                 <button className="btn btn-secondary text-white font-bold">Headline</button>
                 <Marquee pauseOnHover speed={60}>
                     <p>ঠাকুরগাঁও সুগার মিলস উচ্চ বিদ্যালয়ের ওয়েবসাইটে আপনাকে স্বাগতম ।</p>

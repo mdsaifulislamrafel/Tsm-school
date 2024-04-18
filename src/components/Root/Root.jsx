@@ -10,7 +10,7 @@ const Root = () => {
                 <title>Home Thakurgaon sugar mills high school</title>
             </Helmet>
             <Header />
-            <div className="w-[95%] my-5 md:my-10 mx-auto min-h-[calc(100vh-116px)]">
+            <div className="w-[95%] my-5 md:my-8 mx-auto min-h-[calc(100vh-177.16px)]">
                 <Outlet></Outlet>
             </div>
             <Footer />
