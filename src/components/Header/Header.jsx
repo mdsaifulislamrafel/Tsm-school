@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../assets/images/logo.png'
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import toast from 'react-hot-toast';
 
@@ -55,7 +54,7 @@ const Header = () => {
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="flex items-center justify-between">
                             <div className='flex items-center justify-center gap-2'>
-                                <img className='w-16 md:w-20' src={logo} alt="" />
+                                <img className='w-16 md:w-20' src="https://i.ibb.co/xjk8MmX/logo-CFs-Mp-Ycn.png" alt="" />
                                 <NavLink to={"/"}>
                                     <p className='text-sm md:text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient'>ঠাকুরগাঁও সুগার মিলস উচ্চ বিদ্যালয়</p>
                                 </NavLink>

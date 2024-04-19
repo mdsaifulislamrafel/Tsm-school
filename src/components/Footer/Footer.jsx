@@ -1,10 +1,9 @@
-import logo from "../../assets/images/logo.png";
 const Footer = () => {
     return (
         <footer className="text-gray-600 border body-font">
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                 <a className="flex title-font gap-2 font-medium items-center md:justify-start justify-center text-gray-900">
-                    <img className="w-20" src={logo} alt="" />
+                    <img className="w-20" src="https://i.ibb.co/xjk8MmX/logo-CFs-Mp-Ycn.png" alt="" />
                     <span className="text-sm md:text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient">ঠাকুরগাঁও সুগার মিলস উচ্চ বিদ্যালয়</span>
                 </a>
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Github —
