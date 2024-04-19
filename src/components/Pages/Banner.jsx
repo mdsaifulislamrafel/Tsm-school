@@ -1,5 +1,4 @@
 import Marquee from "react-fast-marquee";
-import logo from "../../assets/images/logo.png"
 import logo1 from "../../assets/images/logo1.png"
 import logo2 from "../../assets/images/logo2.png"
 import AOS from 'aos';
@@ -16,7 +15,7 @@ const Banner = () => {
             </div>
             <div className="md:flex space-y-5 justify-between items-center bg-[#002147] p-5">
                 <div data-aos="zoom-out-right"  data-aos-duration="1100" className="ml-5">
-                    <img className="w-28 mx-auto" src={logo} alt="" />
+                    <img className="w-28 mx-auto" src="https://i.ibb.co/xjk8MmX/logo-CFs-Mp-Ycn.png" alt="" />
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="2000" className="text-center md:space-y-5">
                     <h2 data-aos="zoom-in" data-aos-duration="2100" className="text-white font-extrabold text-1xl md:text-3xl lg:text-5xl">ঠাকুরগাঁও সুগার মিলস উচ্চ বিদ্যালয়</h2>
