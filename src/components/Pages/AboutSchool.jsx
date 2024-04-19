@@ -6,17 +6,17 @@ const AboutSchool = () => {
     const handleToggle = (idx) => setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
 
     const datas = [
-        { title: 'মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর', color: 'green', description: 'click now', links: 'https://dshe.gov.bd/'},
+        { title: 'মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর', color: 'green', description: 'click now', links: 'https://dshe.gov.bd/' },
         { title: 'শিক্ষক বাতায়ন', color: 'sky', description: 'click now', links: 'https://www.teachers.gov.bd/' },
         { title: 'শিক্ষা মন্ত্রনালয়', color: 'purple', description: 'click now', links: 'http://www.moedu.gov.bd/' },
         { title: 'ই-বুক', color: 'amber', description: 'click now', links: 'http://www.ebook.gov.bd/' },
         { title: 'দিনাজপুর শিক্ষা বোর্ড', color: 'red', description: 'click now', links: 'https://dinajpureducationboard.gov.bd/' },
         { title: 'Education Board Results', color: 'purple', description: 'click now', links: 'http://www.educationboardresults.gov.bd/' },
-        { title: 'জাতীয় শিক্ষা বোর্ড', color: 'yellow', description: 'click now', links: 'http://www.educationboard.gov.bd/'},
+        { title: 'জাতীয় শিক্ষা বোর্ড', color: 'yellow', description: 'click now', links: 'http://www.educationboard.gov.bd/' },
         { title: 'বিদ্যালয়ের ফেসবুক গ্রুপ', color: 'purple', description: 'click now', links: 'https://www.facebook.com/groups/514439851943676' }
     ];
     return (
-        <div data-aos="fade-up" className="bg-[#E7EDC9] grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center my-5 md:my-16 lg:p-10">
+        <div data-aos="fade-up" className="bg-[#E7EDC9] grid grid-cols-1 lg:grid-cols-2 gap-5 justify-center my-5 md:p-10">
             <div>
                 <h2 className="border-b-8 border-[#86A824]"><span className="text-3xl text-black font-semibold">প্রধান শিক্ষকের বাণী</span></h2>
 

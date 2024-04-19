@@ -1,12 +1,17 @@
 import { Helmet } from "react-helmet-async";
+import Playing from "./Playing";
+import StudentDialogue from "./StudentDialogue";
+import Ifter from "./Ifter";
 
 const SchoolWork = () => {
     return (
-        <div>
+        <div className="">
             <Helmet>
                 <title>প্রতিষ্ঠানিক কার্যক্রম Thakurgaon sugar mills high school</title>
             </Helmet>
-            <h1>Coming soon</h1>
+            <Playing />
+            <Ifter />
+            <StudentDialogue />
         </div>
     );
 };

@@ -5,7 +5,7 @@ const AllTeacher = () => {
     const { data } = DataHook();
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 mt-10 md:mt-20">
+            <div className="grid grid-cols-1 w-[80%] lg:w-full mx-auto md:grid-cols-1 lg:grid-cols-3 gap-8 mt-10 md:mt-20">
                 {
                     data.map(teacher => <Teachers key={teacher.id} teacher={teacher}></Teachers>)
                 }

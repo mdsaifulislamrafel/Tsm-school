@@ -21,8 +21,7 @@ const Batch2020 = () => {
         {
             id: '2',
             size: '1280-720',
-            poster: 'https://vimeo.com/936211279?share=copy',
-            src: 'https://vimeo.com/936211279?share=copy',
+            src: 'https://i.ibb.co/tMPkZtQ/batch20.jpg',
             thumb: 'https://i.ibb.co/tMPkZtQ/batch20.jpg'
         },
         {

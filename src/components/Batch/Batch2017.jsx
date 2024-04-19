@@ -8,52 +8,52 @@ import lgZoom from "lightgallery/plugins/zoom";
 import lgVideo from "lightgallery/plugins/video";
 import { Link } from "react-router-dom";
 
-const Batch2024 = () => {
+const Batch2017 = () => {
     const lightGallery = useRef(null);
     const [items] = useState([
 
         {
             id: '1',
             size: '1400-932',
-            src: 'https://i.ibb.co/M5Q6c7P/IMG-4511-01.jpg',
-            thumb: 'https://i.ibb.co/M5Q6c7P/IMG-4511-01.jpg',
+            src: 'https://i.ibb.co/x6qhj60/100045626-1676693772484375-2487825880261328896-n.jpg',
+            thumb: 'https://i.ibb.co/x6qhj60/100045626-1676693772484375-2487825880261328896-n.jpg',
         },
         {
             id: '2',
             size: '1400-932',
-            src: 'https://i.ibb.co/dPtHF2v/IMG-4194.jpg',
-            thumb: 'https://i.ibb.co/dPtHF2v/IMG-4194.jpg',
+            src: 'https://i.ibb.co/7QhzPMv/356831379-2605239219629821-3723494103195428497-n.jpg',
+            thumb: 'https://i.ibb.co/7QhzPMv/356831379-2605239219629821-3723494103195428497-n.jpg',
         },
         {
             id: '3',
             size: '1400-933',
-            src: 'https://i.ibb.co/QbbVt5H/IMG-4483-01.jpg',
-            thumb: 'https://i.ibb.co/QbbVt5H/IMG-4483-01.jpg',
+            src: 'https://i.ibb.co/9YcrGVt/99138503-1676694215817664-849076126310465536-n.jpg',
+            thumb: 'https://i.ibb.co/9YcrGVt/99138503-1676694215817664-849076126310465536-n.jpg',
         },
         {
             id: '4',
             size: '1400-932',
-            src: 'https://i.ibb.co/m6zTxfR/Screenshot-2024-04-18-191430.png',
-            thumb: 'https://i.ibb.co/m6zTxfR/Screenshot-2024-04-18-191430.png',
+            src: 'https://i.ibb.co/0GYVwjX/98469891-1676694455817640-9034353549814792192-n.jpg',
+            thumb: 'https://i.ibb.co/0GYVwjX/98469891-1676694455817640-9034353549814792192-n.jpg',
         },
         {
             id: '5',
             size: '1400-932',
-            src: 'https://i.ibb.co/T0GDdrq/Screenshot-2024-04-18-192703.png',
-            thumb: 'https://i.ibb.co/T0GDdrq/Screenshot-2024-04-18-192703.png',
+            src: 'https://i.ibb.co/RSW7zqK/IMG-4056.jpg',
+            thumb: 'https://i.ibb.co/RSW7zqK/IMG-4056.jpg',
         },
         {
             id: '6',
             size: '1400-933',
-            src: 'https://i.ibb.co/F04NH6c/Screenshot-2024-04-18-192835.png',
-            thumb: 'https://i.ibb.co/F04NH6c/Screenshot-2024-04-18-192835.png',
+            src: 'https://i.ibb.co/zX7W6nW/IMG-4072.jpg',
+            thumb: 'https://i.ibb.co/zX7W6nW/IMG-4072.jpg',
 
         },
         {
             id: '7',
             size: '1400-932',
-            src: 'https://i.ibb.co/DrpMLBP/IMG-4169.jpg',
-            thumb: 'https://i.ibb.co/DrpMLBP/IMG-4169.jpg',
+            src: 'https://i.ibb.co/JcVXh4g/IMG-4203.jpg',
+            thumb: 'https://i.ibb.co/JcVXh4g/IMG-4203.jpg',
         },
     ]);
 
@@ -104,4 +104,4 @@ const Batch2024 = () => {
     );
 };
 
-export default Batch2024;
+export default Batch2017;

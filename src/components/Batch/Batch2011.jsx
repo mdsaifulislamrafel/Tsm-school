@@ -8,53 +8,16 @@ import lgZoom from "lightgallery/plugins/zoom";
 import lgVideo from "lightgallery/plugins/video";
 import { Link } from "react-router-dom";
 
-const Batch2024 = () => {
+const Batch2011 = () => {
     const lightGallery = useRef(null);
     const [items] = useState([
 
         {
             id: '1',
             size: '1400-932',
-            src: 'https://i.ibb.co/M5Q6c7P/IMG-4511-01.jpg',
-            thumb: 'https://i.ibb.co/M5Q6c7P/IMG-4511-01.jpg',
-        },
-        {
-            id: '2',
-            size: '1400-932',
-            src: 'https://i.ibb.co/dPtHF2v/IMG-4194.jpg',
-            thumb: 'https://i.ibb.co/dPtHF2v/IMG-4194.jpg',
-        },
-        {
-            id: '3',
-            size: '1400-933',
-            src: 'https://i.ibb.co/QbbVt5H/IMG-4483-01.jpg',
-            thumb: 'https://i.ibb.co/QbbVt5H/IMG-4483-01.jpg',
-        },
-        {
-            id: '4',
-            size: '1400-932',
-            src: 'https://i.ibb.co/m6zTxfR/Screenshot-2024-04-18-191430.png',
-            thumb: 'https://i.ibb.co/m6zTxfR/Screenshot-2024-04-18-191430.png',
-        },
-        {
-            id: '5',
-            size: '1400-932',
-            src: 'https://i.ibb.co/T0GDdrq/Screenshot-2024-04-18-192703.png',
-            thumb: 'https://i.ibb.co/T0GDdrq/Screenshot-2024-04-18-192703.png',
-        },
-        {
-            id: '6',
-            size: '1400-933',
-            src: 'https://i.ibb.co/F04NH6c/Screenshot-2024-04-18-192835.png',
-            thumb: 'https://i.ibb.co/F04NH6c/Screenshot-2024-04-18-192835.png',
-
-        },
-        {
-            id: '7',
-            size: '1400-932',
-            src: 'https://i.ibb.co/DrpMLBP/IMG-4169.jpg',
-            thumb: 'https://i.ibb.co/DrpMLBP/IMG-4169.jpg',
-        },
+            src: 'https://i.ibb.co/VtBXdLH/IMG-20240418-WA0002.jpg',
+            thumb: 'https://i.ibb.co/VtBXdLH/IMG-20240418-WA0002.jpg',
+        }
     ]);
 
     const onInit = useCallback((detail) => {
@@ -104,4 +67,4 @@ const Batch2024 = () => {
     );
 };
 
-export default Batch2024;
+export default Batch2011;

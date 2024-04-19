@@ -7,6 +7,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { IoMdEyeOff } from "react-icons/io";
 import { FaEye } from "react-icons/fa";
 import { Helmet } from 'react-helmet-async';
+import ResetPassword from "./ResetPassword";
 
 
 
@@ -56,9 +57,9 @@ const Login = () => {
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="mt-10">
             <div className="w-full max-w-md p-8 space-y-3 rounded-xl border bg-white font-sans mx-auto">
-            <Helmet>
-                <title>Login</title>
-            </Helmet>
+                <Helmet>
+                    <title>Login</title>
+                </Helmet>
                 <h1 className="text-3xl font-bold text-center text-indigo-600">Login</h1>
                 <div className="space-y-2 text-sm">
                     <label htmlFor="username" className="block ">
@@ -74,12 +75,11 @@ const Login = () => {
                     <div className="relative">
                         <input {...register("password", { required: true })} type={show ? "text" : "password"} name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md border border-indigo-300 focus:outline-none focus:ring" />
                         {errors.password && <span className="text-red-500">This field is required</span>}
-                        <span className="absolute right-4 top-3" onClick={handleShowPassword}>{show ? <IoMdEyeOff className="text-xl" /> : <FaEye  className="text-xl"/>}</span>
+                        <span className="absolute right-4 top-3" onClick={handleShowPassword}>{show ? <IoMdEyeOff className="text-xl" /> : <FaEye className="text-xl" />}</span>
                     </div>
                     <div className="flex justify-end text-xs">
-                        <a className="hover:underline">
-                            Forgot Password?
-                        </a>
+                        <ResetPassword />
+                        
                     </div>
                 </div>
                 <button type="submit" className="text-lg rounded-xl relative p-[10px] block w-full bg-indigo-600 text-white border-y-4 duration-500 overflow-hidden focus:border-indigo-500 z-50 group">

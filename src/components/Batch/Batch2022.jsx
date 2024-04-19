@@ -8,53 +8,52 @@ import lgZoom from "lightgallery/plugins/zoom";
 import lgVideo from "lightgallery/plugins/video";
 import { Link } from "react-router-dom";
 
-const Batch2024 = () => {
+const Batch2022 = () => {
     const lightGallery = useRef(null);
     const [items] = useState([
 
         {
             id: '1',
             size: '1400-932',
-            src: 'https://i.ibb.co/M5Q6c7P/IMG-4511-01.jpg',
-            thumb: 'https://i.ibb.co/M5Q6c7P/IMG-4511-01.jpg',
+            src: 'https://i.ibb.co/xsY00ZZ/DSC097331.jpg',
+            thumb: 'https://i.ibb.co/xsY00ZZ/DSC097331.jpg',
         },
         {
             id: '2',
             size: '1400-932',
-            src: 'https://i.ibb.co/dPtHF2v/IMG-4194.jpg',
-            thumb: 'https://i.ibb.co/dPtHF2v/IMG-4194.jpg',
+            src: 'https://i.ibb.co/zZkHYmg/DSC092171.jpg',
+            thumb: 'https://i.ibb.co/zZkHYmg/DSC092171.jpg',
         },
         {
             id: '3',
-            size: '1400-933',
-            src: 'https://i.ibb.co/QbbVt5H/IMG-4483-01.jpg',
-            thumb: 'https://i.ibb.co/QbbVt5H/IMG-4483-01.jpg',
+            size: '1400-932',
+            src: 'https://i.ibb.co/ZYnFVhR/312715078-668733804767747-4857508405237181739-n.jpg',
+            thumb: 'https://i.ibb.co/ZYnFVhR/312715078-668733804767747-4857508405237181739-n.jpg',
         },
         {
             id: '4',
             size: '1400-932',
-            src: 'https://i.ibb.co/m6zTxfR/Screenshot-2024-04-18-191430.png',
-            thumb: 'https://i.ibb.co/m6zTxfR/Screenshot-2024-04-18-191430.png',
+            src: 'https://i.ibb.co/bmJm83w/285870727-569915374649591-5290402603688555487-n.jpg',
+            thumb: 'https://i.ibb.co/bmJm83w/285870727-569915374649591-5290402603688555487-n.jpg',
         },
         {
             id: '5',
             size: '1400-932',
-            src: 'https://i.ibb.co/T0GDdrq/Screenshot-2024-04-18-192703.png',
-            thumb: 'https://i.ibb.co/T0GDdrq/Screenshot-2024-04-18-192703.png',
+            src: 'https://i.ibb.co/x1X7KXt/435464495-952792346258466-1049924889274993903-n.jpg',
+            thumb: 'https://i.ibb.co/x1X7KXt/435464495-952792346258466-1049924889274993903-n.jpg',
         },
         {
             id: '6',
-            size: '1400-933',
-            src: 'https://i.ibb.co/F04NH6c/Screenshot-2024-04-18-192835.png',
-            thumb: 'https://i.ibb.co/F04NH6c/Screenshot-2024-04-18-192835.png',
-
+            size: '1400-932',
+            src: 'https://i.ibb.co/524FdN4/276058631-504623847741987-4329843461226666698-n.jpg',
+            thumb: 'https://i.ibb.co/524FdN4/276058631-504623847741987-4329843461226666698-n.jpg',
         },
         {
             id: '7',
             size: '1400-932',
-            src: 'https://i.ibb.co/DrpMLBP/IMG-4169.jpg',
-            thumb: 'https://i.ibb.co/DrpMLBP/IMG-4169.jpg',
-        },
+            src: 'https://i.ibb.co/NxMQkWW/435264212-952792239591810-2318162191431643479-n.jpg',
+            thumb: 'https://i.ibb.co/NxMQkWW/435264212-952792239591810-2318162191431643479-n.jpg',
+        }
     ]);
 
     const onInit = useCallback((detail) => {
@@ -104,4 +103,4 @@ const Batch2024 = () => {
     );
 };
 
-export default Batch2024;
+export default Batch2022;

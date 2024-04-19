@@ -6,7 +6,6 @@ import toast from 'react-hot-toast';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [theme, setTheme] = useState("light");
     const [isScrolled, setIsScrolled] = useState(false);
     const { user, logOut } = useContext(AuthContext);
 
@@ -15,19 +14,6 @@ const Header = () => {
         toast.success('Successfully logout!')
     }
 
-    useEffect(() => {
-        localStorage.setItem("theme", theme);
-        const localTheme = localStorage.getItem("theme");
-        document.querySelector("html").setAttribute("data-theme", localTheme);
-    }, [theme]);
-
-    const handleToggle = (e) => {
-        if (e.target.checked) {
-            setTheme("synthwave");
-        } else {
-            setTheme("light");
-        }
-    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -100,19 +86,15 @@ const Header = () => {
                                 }
                             </div>
                             <div className="flex items-center justify-center gap-2 mt-4 lg:mt-0 md:p-2">
-                                <label className="cursor-pointer grid place-items-center">
-                                    <input onChange={handleToggle} type="checkbox" value="synthwave" className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2" />
-                                    <svg className="col-start-1 row-start-1 stroke-base-100 fill-base-100" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="5" /><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" /></svg>
-                                    <svg className="col-start-2 row-start-1 stroke-base-100 fill-base-100" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                                </label>
+                                
                                 <div className="flex items-center mt-4 lg:mt-0">
                                     {user ? (
                                         <div className="flex gap-2 items-center">
 
                                             <div className="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                                                <img title={user?.displayName} src={user?.photoURL || "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"} className="object-cover w-full h-full" alt="avatar" />
+                                                <img title={user?.displayName} src={user?.photoURL || "https://i.ibb.co/jR0kk35/1e578556b494345deaabeda7e56467c5.png"} className="object-cover w-full h-full" alt="avatar" />
                                             </div>
-                                            <h3 className="mx-2 text-gray-700 dark:text-gray-200 lg:hidden">{user?.displayName}</h3>
+                                            <h3 className="mx-2 text-sm text-gray-700 dark:text-gray-200 lg:hidden">{user?.displayName}</h3>
                                             <button onClick={() => handleLogOut()} className='btn btn-success text-white btn-sm'>Log Out</button>
                                         </div>
                                     ) : (
