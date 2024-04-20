@@ -8,28 +8,16 @@ import lgZoom from "lightgallery/plugins/zoom";
 import lgVideo from "lightgallery/plugins/video";
 import { Link } from "react-router-dom";
 
-const Batch2011 = () => {
+const Batch1992 = () => {
     const lightGallery = useRef(null);
     const [items] = useState([
 
         {
             id: '1',
             size: '1400-932',
-            src: 'https://i.ibb.co/VtBXdLH/IMG-20240418-WA0002.jpg',
-            thumb: 'https://i.ibb.co/VtBXdLH/IMG-20240418-WA0002.jpg',
+            src: 'https://i.ibb.co/P6880Zn/IMG-20240420-155135-331.jpg',
+            thumb: 'https://i.ibb.co/P6880Zn/IMG-20240420-155135-331.jpg',
         },
-        {
-            id: '2',
-            size: '1400-932',
-            src: 'https://i.ibb.co/9g3Jrwq/received-7538004752888249.jpg',
-            thumb: 'https://i.ibb.co/9g3Jrwq/received-7538004752888249.jpg',
-        },
-        {
-            id: '3',
-            size: '1400-932',
-            src: 'https://i.ibb.co/ftwR8SH/IMG-20240419-WA0000.jpg',
-            thumb: 'https://i.ibb.co/ftwR8SH/IMG-20240419-WA0000.jpg',
-        }
     ]);
 
     const onInit = useCallback((detail) => {
@@ -79,4 +67,4 @@ const Batch2011 = () => {
     );
 };
 
-export default Batch2011;
+export default Batch1992;

@@ -23,6 +23,7 @@ import Batch2018 from "../Batch/Batch2018";
 import Batch2021 from "../Batch/Batch2021";
 import Batch2017 from "../Batch/Batch2017";
 import Batch2016 from "../Batch/Batch2016";
+import Batch1992 from "../Batch/Batch1992";
 
 export const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
             {
                 path: "/gallery",
                 element: <PrivateRoute><Gallery /></PrivateRoute>
+            },
+            {
+                path: "/batch-1992",
+                element: <Batch1992 />
             },
             {
                 path: "/batch-1999",

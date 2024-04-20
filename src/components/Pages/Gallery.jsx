@@ -8,6 +8,12 @@ const Gallery = () => {
                 <title>Gallery Thakurgaon sugar mills high school</title>
             </Helmet>
             <div data-aos="zoom-in" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {/* batch 1992 */}
+                <div data-aos="zoom-in" data-aos-duration="1200" className="border-4 flex flex-col space-y-5 justify-center rounded-2xl items-center p-10">
+                    <img className="w-full h-[300px]" src="https://i.ibb.co/P6880Zn/IMG-20240420-155135-331.jpg" alt="batch-1992" />
+                    <h2 className="font-bold text-black text-2xl border-4 p-4 border-indigo-700 rounded-xl">ব্যাচ  ১৯৯২</h2>
+                    <Link to={"/batch-1992"} className="btn btn-secondary w-full">See more</Link>
+                </div>
                 {/* batch 1999 */}
                 <div data-aos="zoom-in" data-aos-duration="1200" className="border-4 flex flex-col space-y-5 justify-center rounded-2xl items-center p-10">
                     <img className="w-full h-[300px]" src="https://i.ibb.co/XtJV3Sp/1999.jpg" alt="batch-1999" />

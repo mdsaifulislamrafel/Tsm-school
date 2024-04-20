@@ -13,6 +13,7 @@
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
     "firebase": "^10.11.0",
+    "har-validator": "^5.1.5",
     "light": "^2.0.0-alpha.26",
     "lightgallery": "^2.7.2",
     "localforage": "^1.10.0",
