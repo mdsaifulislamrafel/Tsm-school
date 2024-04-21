@@ -41,7 +41,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/gallery",
-                element: <PrivateRoute><Gallery /></PrivateRoute>
+                element: <Gallery />
             },
             {
                 path: "/batch-1992",
@@ -93,7 +93,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/school-work",
-                element: <PrivateRoute><SchoolWork /></PrivateRoute>
+                element: <SchoolWork />
             },
             {
                 path: "/contact",
